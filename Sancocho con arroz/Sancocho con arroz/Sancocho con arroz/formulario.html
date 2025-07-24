@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <h1>Registro usuario</h1>
+        <fieldset>
+            <h2>Datos personales</h2>
+    </head>
+    <body>
+        <ol>
+        <form action="enviofromulario.php" method="get">
+            
+       <li> <label>Nombre:</label>
+        <input name="Nombre" type="text" placeholder="Por favor, digite su nombre" required><br></li>
+
+       <li> <label>Número de cedula</label>:
+        <input name="Cedula" type="number" placeholder="Por favor, digite su número de Cedula" required><br></li>
+        
+       <li><label>Fecha de expedición cedula:</label>
+            <input name="Fecha cedula" type="date">
+        </li>
+
+       <li> <label>Sexo:</label><br>
+        <label>Masculino</label>
+        <input name="Sexo:" type="radio">
+        <label>femenino</label>
+        <input name="Sexo:" type="radio">
+        </li>
+    
+        <li><label>Fecha de nacimiento:</label>
+        <input name="Fecha nacimiento" type="date">
+        </li>
+        
+        <li><label> Ciudad de nacimiento </label>
+            <select name="Ciudad nacimiento" required>
+                <option value="">Seleccione ciudad</option>
+                <option value="Medellin">Medellin</option>
+                <option value="Bogotá D.C.">Bogotá D.C.</D></option>
+                <option value="Cali">Cali</option>
+                <option value="Barranquilla">Barranquilla</option>
+                <option value="Pereira">Pereira</option></select>
+            </li>
+        <li><label>Candidad de hermanos</label>
+            <select name="candhermanos" required>
+                <option value="">Seleccione la cantidad de hermanos</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option></select>
+            </li>
+            <li> <label>Número de celula</label>:
+                <input name="Celula" type="tel" placeholder="Por favor, digite su número de celular" required maxlength="10"></li>
+            
+           <li> <label>Número de contraseña deseada</label>:
+                <input name="Contraseña deseada" type="tel" placeholder="Por favor, digite su contraseña deseada" required maxlength="4"></li>
+           
+            <li><label>Dirección de recidencia:</label>
+                <input name="dirección" type="text" placeholder="Por favor, digite su dirección de recidencia" required><br>
+            </li>
+        
+        </ol>
+        <div>
+            <label>Correo electronico</label>
+        <input name="correo" type="email" placeholder="Por favor, digite su correo electronico" required><br>
+            <button type="submit">Enviar Datos</button>
+            <button type="reset">Limpiar formato</button>
+        </div>
+    </form>
+    </fieldset>
+    </body>
+  
+</html>

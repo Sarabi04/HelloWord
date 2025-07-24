@@ -1,0 +1,55 @@
+body {
+    background-color: bisque;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    color: rgb(102, 71, 5);
+    text-align: center;
+}
+
+.intro {
+    color: darkgreen;
+}
+
+a:hover {
+    color: orange;
+}
+
+#contenido {
+    padding: 20px;
+    border: 1px solid #fc6262;
+}
+
+.fotoperfil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.miletra {
+        font-family: "Tinos", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .tinos-bold {
+        font-family: "Tinos", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .tinos-regular-italic {
+        font-family: "Tinos", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .tinos-bold-italic {
+        font-family: "Tinos", serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
